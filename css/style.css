@@ -1,0 +1,150 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+}
+
+.navbar{
+    height: 7rem;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 7rem;
+    color: rgb(16, 53, 100);
+}
+
+.nav-links{
+    width: 100%;
+}
+
+.links{
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    border: 2px solid none;
+    border-radius: 40px;
+}
+
+.links > a{
+    font-family: monospace, Consolas, 'Courier New', monospace;
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+    background-color: lightsteelblue;
+    color: rgb(16, 53, 100);
+}
+
+.nav-link1{
+    color: white;
+    background-color: lightsteelblue;
+    padding: 0.8rem 1.5rem;
+}
+.nav-link2{
+    background-color: lightsteelblue;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;;
+}
+.nav-link3{
+    padding: 0.8rem 1.5rem;
+}
+.nav-link4{
+   padding: 0.8rem 1.5rem;
+   border-radius: 10px;
+}  
+
+.nav-link1:hover{
+    background-color: rgb(16, 53, 100);
+    color: white;
+}
+.nav-link2:hover{
+    background-color: rgb(16, 53, 100);
+    color: white;
+}
+.nav-link3:hover{
+    background-color: lightsteelblue;
+    color: white;
+}
+.nav-link4:hover{
+    background-color: lightsteelblue;
+}
+     */
+
+header{
+    width: 100%;
+    padding: 20px 0;
+    border: 1px solid;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+}
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links > a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.hero-section{
+    display: flex;
+    border: 1px solid;
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+img{
+    border: 1px solid;
+    width: 400px;
+    height: 400px;
+}
+
+.container{
+    border: 1px solid;
+    width: 800px;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(16, 53, 100);
+}
+
+.container > h1{
+    font-size: 2.5rem;
+    color: rgb(16, 53, 100);
+}
